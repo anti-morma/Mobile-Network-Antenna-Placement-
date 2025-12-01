@@ -1,0 +1,9 @@
+# Ignora file oggetto ed eseguibili
+*.o
+*.exe
+*.out
+antenna_solver
+
+# Ignora file di sistema mac/windows inutili
+.DS_Store
+Thumbs.db
