@@ -13,6 +13,7 @@ This project marks my transition from brute-force approaches to **Dynamic Progra
 * **Naive Approach (Powerset):** A brute-force solution would evaluate all valid subsets of antennas. [cite_start]This results in an exponential time complexity of $O(2^n)$, which is inefficient for large datasets[cite: 28, 29].
 * [cite_start]**Dynamic Programming (Implemented):** By identifying optimal substructures, this solution solves the problem in **linear time $O(n)$**[cite: 25, 82].
 
+The first city is hardcoded due to an explicit costraint from the exercise description.
 ### Algorithm Logic
 Let `opt[i]` be the maximum population covered considering cities from 1 to `i`. The recurrence relation is defined as:
 
